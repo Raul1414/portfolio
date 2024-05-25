@@ -1,0 +1,149 @@
+@font-face{
+    font-family: 'MiTipografia';
+    src: url('fonts/Ribes-Regular.otf') format('truetype');
+}
+
+body{
+font-family: 'MiTipografia';
+overflow-x: hidden;
+}
+
+header{
+    text-align: center;
+    padding: 20px;
+}
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+.top-bar h3 {
+    margin: 0;
+}
+.top-bar a img {
+    height: 36px; 
+}
+h1 {
+    font-size: 72px; 
+    text-align: left;
+    margin-left: 300px; 
+    margin-bottom: 50px; 
+    margin-top: 100px;
+}
+.profile-image {
+    display: block;
+    margin: 0 auto; 
+    max-width: 1400px; 
+    height: auto; 
+}
+
+h2 {
+    font-size: 64px; 
+    text-align: center; 
+    margin-bottom: 20px; 
+}
+h3{
+    font-size: 32px;
+}
+hr {
+    border: 0;
+    height: 2px;
+    background: black;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.project {
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.project-header {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px; 
+}
+.project-header div {
+    display: flex;
+    gap: 8px;
+}
+.project-header a{
+    display: flex;
+    gap: 8px;
+    text-decoration: none;
+    color:grey;
+}
+.project img{
+    width: 100%;
+    object-fit: contain;
+}
+.project-header a img{
+    width: 24px;
+}
+.project-details {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.project-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+footer {
+    background-color: #221E20;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+footer .email {
+    flex: 1;
+}
+
+footer .email p {
+    color: white;
+    font-size: 16px;
+}
+
+footer .social-medias {
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+footer .social-medias a {
+    text-decoration: none;
+    color: white;
+}
+
+footer .social-medias p {
+    margin: 0;
+}
+
+footer .name {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-grow: 1;
+}
+
+footer .name h4 {
+    font-size: 670px;
+    margin: 0;
+    color: white;
+    line-height:normal;
+}
+
+footer .social-medias a:hover {
+    text-decoration: underline;
+}
